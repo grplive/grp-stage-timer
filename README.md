@@ -40,6 +40,23 @@ If the module isn't in your Companion's module list yet, download
 [GRP-Stage-Timer-Companion-Module.tgz](https://github.com/grplive/grp-stage-timer/releases/latest/download/GRP-Stage-Timer-Companion-Module.tgz)
 and use Modules → Import module package.
 
+## Network API (for Companion and other control systems)
+
+Turn on **Settings → Companion control** in the timer. It then listens for HTTP on **port 4800**
+(GET or POST, no authentication, local network only).
+
+| Path | Does |
+|---|---|
+| `/api/state` | JSON: status, display time, cue list, colours, schedule, message, blackout… |
+| `/api/toggle` · `/api/start` · `/api/pause` · `/api/go` · `/api/reset` | Transport |
+| `/api/next` · `/api/prev` · `/api/cue/3` · `/api/cue/3/go` | Running order (select / go live) |
+| `/api/adjust/60` · `/api/adjust/-60` | Add / take off seconds |
+| `/api/quick/5` (`1:30`, `90s`; `?start=1`) | Quick timer |
+| `/api/message?text=Wrap%20up&mode=full&flash=1` · `/api/message/clear` | Stage messages |
+| `/api/flash` · `/api/flash/off` · `/api/blackout[/on\|/off]` · `/api/clock[/on\|/off]` | Stage |
+
+Every command returns `{"ok":true}` or `{"ok":false,"error":"…"}`.
+
 ## Help
 
 Questions or problems: [grp.live](https://grp.live).
