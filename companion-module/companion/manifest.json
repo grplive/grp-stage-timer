@@ -1,0 +1,28 @@
+{
+	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
+	"id": "grplive-stagetimer",
+	"name": "GRP Stage Timer",
+	"shortname": "GRP Stage Timer",
+	"description": "Control GRP Stage Timer over the network",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-grplive-stagetimer.git",
+	"bugs": "https://github.com/bitfocus/companion-module-grplive-stagetimer/issues",
+	"maintainers": [
+		{
+			"name": "GRP Live",
+			"github": "SamBashir-GRPLIVE",
+			"url": "https://grp.live"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../src/main.js"
+	},
+	"manufacturer": "GRP Live",
+	"products": ["Stage Timer"],
+	"keywords": ["timer", "countdown", "stage"]
+}
