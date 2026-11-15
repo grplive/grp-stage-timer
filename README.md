@@ -28,12 +28,18 @@ The app isn't signed with Apple or Microsoft yet, so the first launch needs one 
   and click **Open Anyway**. You only do this once.
 - **Windows:** if "Windows protected your PC" appears, click **More info → Run anyway**.
 
-Updating: install the new version over the top. Your shows and settings are kept.
+Updating: install the new version over the top. Your shows and settings are kept. From 1.0.18 the
+timer shows an **Update available** button when a new version is out.
+
+## GRP Notes
+
+Show the presenter's notes on a confidence monitor, with this timer's countdown, colours and messages:
+[GRP Notes](https://github.com/grplive/grp-notes). Turn on **Settings → Network control** in the timer.
 
 ## Bitfocus Companion
 
 Install the **GRP Stage Timer** module in Companion, then in the timer turn on
-**Settings → Companion control** and enter the IP address it shows into the connection.
+**Settings → Network control** and enter the IP address it shows into the connection.
 Presets cover transport, cues, quick timers, messages and a live stage preview.
 
 If the module isn't in your Companion's module list yet, download
@@ -42,7 +48,7 @@ and use Modules → Import module package.
 
 ## Network API (for Companion and other control systems)
 
-Turn on **Settings → Companion control** in the timer. It then listens for HTTP on **port 4800**
+Turn on **Settings → Network control** in the timer (called *Companion control* before 1.0.18). It then listens for HTTP on **port 4800**
 (GET or POST, no authentication, local network only).
 
 | Path | Does |
