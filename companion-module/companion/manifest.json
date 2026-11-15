@@ -6,8 +6,8 @@
 	"description": "Control GRP Stage Timer over the network",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-grplive-stagetimer.git",
-	"bugs": "https://github.com/bitfocus/companion-module-grplive-stagetimer/issues",
+	"repository": "git+https://github.com/grplive/grp-stage-timer.git",
+	"bugs": "https://github.com/grplive/grp-stage-timer/issues",
 	"maintainers": [
 		{
 			"name": "GRP Live",

@@ -38,13 +38,16 @@ Show the presenter's notes on a confidence monitor, with this timer's countdown,
 
 ## Bitfocus Companion
 
-Install the **GRP Stage Timer** module in Companion, then in the timer turn on
-**Settings → Network control** and enter the IP address it shows into the connection.
-Presets cover transport, cues, quick timers, messages and a live stage preview.
+The GRP Stage Timer module comes with the timer rather than through Companion's built-in module list.
 
-If the module isn't in your Companion's module list yet, download
-[GRP-Stage-Timer-Companion-Module.tgz](https://github.com/grplive/grp-stage-timer/releases/latest/download/GRP-Stage-Timer-Companion-Module.tgz)
-and use Modules → Import module package.
+1. Download [GRP-Stage-Timer-Companion-Module.tgz](https://github.com/grplive/grp-stage-timer/releases/latest/download/GRP-Stage-Timer-Companion-Module.tgz)
+   onto the machine running Companion (version 4 or newer).
+2. In Companion, go to Modules → **Import module package** and choose the .tgz.
+3. In the timer, turn on **Settings → Network control**, then add a **GRP Stage Timer** connection
+   in Companion and enter the IP address the timer shows.
+
+Presets cover transport, cues, quick timers, messages and a live stage preview.
+For a newer module, download the latest .tgz and import it again.
 
 ## Network API (for Companion and other control systems)
 

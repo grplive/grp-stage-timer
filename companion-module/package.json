@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/bitfocus/companion-module-grplive-stagetimer.git"
+		"url": "git+https://github.com/grplive/grp-stage-timer.git"
 	},
 	"prettier": "@companion-module/tools/.prettierrc.json"
 }

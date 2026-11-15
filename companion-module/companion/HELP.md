@@ -1,6 +1,6 @@
 ## GRP Stage Timer
 
-1. On the timer machine, open **Settings → Companion control** and tick **Allow control over the network**. It shows the IP address and port (4800).
+1. On the timer machine, open **Settings → Network control** (called *Companion control* before 1.0.18) and tick **Allow control over the network**. It shows the IP address and port (4800).
 2. Put that IP address and port into this connection.
 
 **Presets** (drag onto buttons): Transport, Stage, Cues 1–12, Quick timers, Display only.
